@@ -11,4 +11,8 @@ public class SimpleCalculatorTest {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.add(1, 1), 2);
 	}
+	public vlid testmin() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.min(5, 3),2);
+	}
 }
