@@ -7,4 +7,12 @@ public class SimpleCalculator {
 	public int min(int a, int b) {
 		return a - b;
 	}
+	public int mult(int a, int b) {
+		return a * b;
+	}
+	public int divide(int a, int b) {
+		return a / b;
+	}
 }
+
+
